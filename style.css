@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* Sıfırlama Kodu */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif; }
+
+body {
+  background: url(images/bg3.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  body img {
+    opacity: 0.4; }
+  body .uye-olbg {
+    background: url(images/bg.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    body .uye-olbg img {
+      opacity: 0.4; }
+
+/* Header */
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #0B0D17; }
+  header ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0; }
+    header ul li {
+      list-style-type: none;
+      float: left;
+      padding: 15px 10px 10px 10px;
+      display: inline-block;
+      font-size: 19px; }
+      header ul li a {
+        text-decoration: none;
+        color: #fff; }
+
+/* *Header */
+/* Slider */
+.slider img {
+  width: 100%;
+  height: 100%; }
+
+/* *Slider */
+/* Footer */
+footer {
+  background-color: #0B0D17;
+  width: 100%;
+  padding: 10px; }
+  footer .social-media li {
+    float: right;
+    margin-top: -40px;
+    padding: 10px; }
+    footer .social-media li i {
+      color: #fff;
+      list-style-type: none; }
+  footer .info li i {
+    color: white;
+    list-style-type: none; }
+
+.uye-girisi {
+  margin-top: 50%;
+  text-align: center;
+  color: black;
+  border: 1px solid #fff;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 10px;
+  margin-right: 50%; }
+  .uye-girisi h1 {
+    text-weight: bold;
+    padding: 30px; }
+  .uye-girisi input[type='text'] {
+    width: 100%;
+    margin-bottom: 10px;
+    border: solid 2px gray;
+    border-radius: 10px; }
+  .uye-girisi select option.tur {
+    width: 100%;
+    margin-bottom: 10px;
+    border: solid 2px gray;
+    border-radius: 10px; }
+  .uye-girisi input[type='password'] {
+    width: 100%;
+    margin-bottom: 10px;
+    border: solid 2px gray;
+    border-radius: 10px; }
+  .uye-girisi input[type='submit'] {
+    background-color: #049725;
+    color: #fff;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    margin: 70px 2px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border-radius: 20px; }
+  .uye-girisi input[type='checkbox'] {
+    float: left;
+    margin-top: 6px; }
+  .uye-girisi .hatirla {
+    float: left;
+    margin-left: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px; }
+  .uye-girisi .sifremi-unuttum {
+    font-weight: bold;
+    color: black;
+    float: right;
+    font-size: 15px; }
+
+.uye-ol {
+  margin-top: 50%;
+  text-align: center;
+  color: black;
+  border: 1px solid #fff;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 10px;
+  margin-right: 50%; }
+  .uye-ol h1 {
+    text-weight: bold;
+    padding: 30px; }
+  .uye-ol input[type='text'] {
+    width: 100%;
+    margin-bottom: 10px;
+    border: solid 2px gray;
+    border-radius: 10px; }
+  .uye-ol input[type='password'] {
+    width: 100%;
+    margin-bottom: 10px;
+    border: solid 2px gray;
+    border-radius: 10px; }
+  .uye-ol input[type='submit'] {
+    background-color: #049725;
+    color: #fff;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    margin: 70px 2px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border-radius: 20px; }
+  .uye-ol input[type='checkbox'] {
+    float: left;
+    margin-top: 6px; }
+
+.referans-listele {
+  margin-top: 110px;
+  margin-left: 90px;
+  background-color: #51597E;
+  padding: 30px;
+  width: 250px;
+  border-radius: 40px;
+  color: white;
+  margin-right: 250px; }
+
+/*# sourceMappingURL=style.css.map */
